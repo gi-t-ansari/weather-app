@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.search-bar {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.search-bar input {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: yellow;
+  font-size: 16px;
+}
+
+.weather-display {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.weather-card {
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid #000;
+  padding: 20px;
+  width: 150px;
+  height: 80px;
+}
